@@ -164,7 +164,7 @@ public class main {
 
     public static void iniciarSimulacion() {
         if (!planetaSeleccionado.isEmpty() && !naveSeleccionada.isEmpty()) {
-            System.out.println("\nIniciando simulación del viaje hacia " + planetaSeleccionado + "...");
+            System.out.println("\nIniciando simulacion del viaje hacia " + planetaSeleccionado + "...");
             double progreso = 0.0;
             Random random = new Random();
 
