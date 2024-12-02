@@ -40,7 +40,7 @@ public class main {
             opcion = scanner.nextInt();
             switch (opcion) {
                 case 0:
-                    System.out.println("Gracias por utilizar nuestros servicios. ¡Hasta la próxima!");
+                    System.out.println("Gracias por utilizar nuestros servicios. ¡Hasta la proxima!");
                     break;
                 case 1:
                     seleccionarPlaneta();
@@ -91,14 +91,14 @@ public class main {
             System.out.println((i + 1) + ". " + planetas[i]);
         }
 
-        System.out.print("Selecciona el número del planeta: ");
+        System.out.print("Selecciona el numero del planeta: ");
         int opcionPlaneta = scanner.nextInt();
         if (opcionPlaneta >= 1 && opcionPlaneta <= planetas.length) {
             planetaSeleccionado = planetas[opcionPlaneta - 1];
             distanciaKm = distancias[opcionPlaneta - 1] * 1000000.0;
             System.out.println("Has seleccionado el planeta: " + planetaSeleccionado);
         } else {
-            System.out.println("Opción incorrecta. Inténtalo de nuevo.");
+            System.out.println("Opcion incorrecta. Intentalo de nuevo.");
         }
     }
 
@@ -108,7 +108,7 @@ public class main {
             System.out.println((i + 1) + ". " + naves[i]);
         }
 
-        System.out.print("Selecciona el número de la nave: ");
+        System.out.print("Selecciona el numero de la nave: ");
         int opcionNave = scanner.nextInt();
         if (opcionNave >= 1 && opcionNave <= naves.length) {
             naveSeleccionada = naves[opcionNave - 1];
@@ -116,7 +116,7 @@ public class main {
             System.out.println("Has seleccionado la nave: " + naveSeleccionada + " con velocidad de "
                     + velocidadSeleccionada + " km/h.");
         } else {
-            System.out.println("Opción no válida. Inténtalo de nuevo.");
+            System.out.println("Opcion no valida. Intentalo de nuevo.");
         }
     }
 
@@ -134,7 +134,7 @@ public class main {
             System.out.printf("Distancia: %.2f km.%n", distanciaKm);
             System.out.printf("Tiempo estimado: %.2f días.%n", tiempoDias);
             System.out.printf("Combustible necesario: %.2f toneladas.%n", combustibleNecesario);
-            System.out.printf("Oxígeno necesario: %.2f kg.%n", oxigenoNecesario);
+            System.out.printf("Oxigeno necesario: %.2f kg.%n", oxigenoNecesario);
         } else {
             System.out.println("\nPor favor, selecciona un planeta y una nave primero.");
         }
@@ -200,11 +200,11 @@ public class main {
                 try {
                     Thread.sleep(1000L);
                 } catch (InterruptedException e) {
-                    System.out.println("Error en la simulación.");
+                    System.out.println("Error en la simulacion.");
                 }
             }
 
-            System.out.println("\n¡Has llegado a " + planetaSeleccionado + " con éxito!");
+            System.out.println("\n¡Has llegado a " + planetaSeleccionado + " con exito!");
         } else {
             System.out.println("\nPor favor, selecciona un planeta y una nave primero.");
         }
