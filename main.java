@@ -1,5 +1,5 @@
 
-//RETO 1 DE JAVA, OLIVER SEBASTIAN BORDA MAHECHA
+//RETO 1 DE JAVA, OLIVER SEBASTIAN BORDA MAHECHA - CC 1000158660
 import java.util.Random;
 import java.util.Scanner;
 
